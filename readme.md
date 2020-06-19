@@ -27,7 +27,7 @@ Ghi ra tập csv
     - EXPORT\_FILENAME: tên tập tin kết quả (mặc định export\_shop.csv)
     
 - Chạy dòng lệnh để cài đặt thư viện: `python -m pip install -r requirements.txt`
-- Chạy công cụ: `python clone_shopee.py` sau đó nhập đường link shopee
+- Chạy công cụ: `python clone_shopee.py LINK_SHOP` sau đó nhập đường link shopee
 - Mở google sheet bất kì (mới hoặc cũ):
     - Chọn `Tệp / File` -> `Nhập / Import` -> `Tải lên / Upload` -> Chọn tập tin `export_shop.csv` -> chọn theo hình đính kèm
     - Tải mẫu excel từ shopee: https://banhang.shopee.vn/portal/product/import/download

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import copy
 import csv
-import json
+import sys
 import random
 import re
 
@@ -215,7 +215,13 @@ def get_shopid(link):
 
 
 if __name__ == '__main__':
-    link = input('Link shop: ')
+    print("Before Run: python -m pip install -r requirements.txt")
+    print("Run: python clone-shopee.py https://shopee.vn/XXXXXX")
+    if len(sys.argv) > 1:
+        link = sys.argv[1]
+    else:
+        link = input('Enter shop\'s link: ')
+
     UNIQUE_LIST = []
     shop_id = get_shopid(link)
     if shop_id:
