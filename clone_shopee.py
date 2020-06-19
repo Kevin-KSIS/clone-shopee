@@ -15,7 +15,7 @@ def get_product_id(data):
     rs = re.findall('Mã sản phẩm: (\d+)', data.get('description', ''))
     if len(rs) > 0:
         return rs[0]
-    return data.get('itemid', 0)
+    return data.get('itemid', random_item_id())
 
 
 # Lấy ngành hàng
