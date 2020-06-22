@@ -20,7 +20,7 @@ PRE_ORDER = '' # mặc định là không đặt hàng trước
 
 MODIFY = {
     'PREFIX_NAME': '[NEW] ', # thêm trước tiêu đề
-    'SUFFIX_NAME': ' - Sago',   # thêm sau tiêu đề
+    'SUFFIX_NAME': '',   # thêm sau tiêu đề
     'PREFIX_DESCRIPTION':   # thêm trước mô tả
         '''Tiêu chí của shop là luôn bán sản phẩm chất lượng và mang đến trải nghiệm tốt nhất cho khách hàng
 ---''',
